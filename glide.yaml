@@ -1,0 +1,8 @@
+package: catsapi
+import:
+- package: github.com/labstack/echo
+  subpackages:
+  - '...'
+- package: github.com/onsi/ginkgo
+  subpackages:
+  - ginkgo/...
